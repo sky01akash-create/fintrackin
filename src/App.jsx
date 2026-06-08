@@ -484,7 +484,7 @@ const loadEmailJS = () => new Promise((resolve, reject) => {
   if (window.emailjs) { resolve(window.emailjs); return; }
   const s = document.createElement("script");
   s.src = "https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js";
-  s.onload = () => { window.emailjs.init({ publicKey: "YOUR_PUBLIC_KEY" }); resolve(window.emailjs); };
+  s.onload = () => { window.emailjs.init({ publicKey: "Xdc5JA1zjsdJ9FkNp" }); resolve(window.emailjs); };
   s.onerror = reject;
   document.head.appendChild(s);
 });
@@ -504,8 +504,8 @@ function Contact() {
     try {
       const ejs = await loadEmailJS();
       await ejs.send(
-        "YOUR_SERVICE_ID",      // ← Replace with your EmailJS Service ID
-        "YOUR_TEMPLATE_ID",     // ← Replace with your EmailJS Template ID
+        "service_zic18s4",      // Service ID
+        "template_0f4h10m",     // Template ID
         {
           from_name:  form.name,
           from_phone: form.phone,
