@@ -183,7 +183,6 @@ function Hero() {
                 <div style={{ width: 40, height: 40, borderRadius: "50%", background: `linear-gradient(135deg, ${GOLD}, ${GOLD_LIGHT})`, display: "flex", alignItems: "center", justifyContent: "center" }}>
                   <span style={{ fontSize: 18 }}>✓</span>
                 </div>
-                <span style={{ color: "rgba(255,255,255,0.7)", fontSize: 13 }}>SEBI compliant · IEPF authorized · PAN verified</span>
               </div>
             </div>
           </div>
