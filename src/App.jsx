@@ -556,6 +556,18 @@ function Contact() {
               </div>
             </a>
           ))}
+          {/* Address */}
+          <div style={{ display: "flex", gap: 16, alignItems: "flex-start", marginTop: 4 }}>
+            <div style={{ width: 48, height: 48, borderRadius: 12, background: `rgba(15,90,74,0.08)`, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 20, flexShrink: 0 }}>📍</div>
+            <div>
+              <div style={{ fontSize: 12, color: "#9ca3af", fontWeight: 600, marginBottom: 2 }}>Address</div>
+              <div style={{ color: EMERALD, fontWeight: 600, fontSize: 15, lineHeight: 1.6 }}>
+                Flat No. C 704, Radhe Paramount<br />
+                Nana Chiloda, Opp. Nyara Petrol Pump<br />
+                Ahmedabad – 382330, Gujarat
+              </div>
+            </div>
+          </div>
         </div>
         {/* Right form */}
         <div style={{ ...fadeUp(inView, 0.15), background: "#fff", borderRadius: 20, padding: "48px 40px", boxShadow: "0 8px 48px rgba(15,90,74,0.1)", border: `1px solid rgba(15,90,74,0.08)` }}>
@@ -676,6 +688,14 @@ function Footer() {
               <div style={{ fontSize: 11, color: GOLD, fontWeight: 600, marginBottom: 4 }}>PHONE</div>
               <a href="tel:+917990559748" style={{ display: "block", color: "rgba(255,255,255,0.75)", textDecoration: "none", fontSize: 14, marginBottom: 4 }}>+91 79905 59748</a>
               <a href="tel:+919724909152" style={{ display: "block", color: "rgba(255,255,255,0.75)", textDecoration: "none", fontSize: 14 }}>+91 97249 09152</a>
+            </div>
+            <div style={{ marginBottom: 14 }}>
+              <div style={{ fontSize: 11, color: GOLD, fontWeight: 600, marginBottom: 8 }}>ADDRESS</div>
+              <div style={{ fontSize: 13, color: "rgba(255,255,255,0.75)", lineHeight: 1.7 }}>
+                Flat No. C 704, Radhe Paramount<br />
+                Nana Chiloda, Opp. Nyara Petrol Pump<br />
+                Ahmedabad – 382330, Gujarat
+              </div>
             </div>
             <div>
               <div style={{ fontSize: 11, color: GOLD, fontWeight: 600, marginBottom: 8 }}>SERVICES</div>
